@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    
+}
+
+.jumbotron{
+    margin-top: -50px;
+    padding: 0px;  
+    width: 100%;
+    z-index: 1;
+}
+.we{
+    color: white;
+    position:relative;
+    text-align: center;
+    padding: 300px;
+}
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    z-index: 10;
+}
+.nav-link{
+    color: black;
+    box-shadow: 10px;
+}
+a.nav-link.active{
+    color: brown;
+    font-weight: bold;
+}
+.colorlib{
+    color: brown;
+}
+.Create{
+    margin-inline-end: auto;
+}
+.links{
+    margin-inline-start: auto;
+}
+.contactus{
+    padding-top: 50px;
+    text-align: center;
+}
+.tick{
+    color: brown;
+}
+.con{
+    font-size: medium;
+
+}
+.p, .p{
+    font-size: medium;
+}
+.one-1{
+    position: absolute;
+    opacity: 0.1;
+    font-size: 120px;
+    margin-top: -75px;
+    margin-left: -41px;
+}
+.col-sm-2{
+    display: table-cell;
+}
+.one{
+    width: 380px;
+    position: relative;
+    margin-left: -20px;
+    padding-right: 10px;
+}
+.row{
+    margin-top: 100px;
+}
+.col-sm-3{
+    display: table-cell;
+}
+.two{
+    width: 380px;
+    position: relative;
+    margin-left: 12px;
+    margin-right: 8px;
+    padding-left: 30px; 
+}
+.two-2{
+    position: absolute;
+    opacity: 0.1;
+    font-size: 120px;
+    margin-top: -75px;
+    margin-left: -41px;
+}
+.col-sm-4{
+    display: table-cell;
+}
+.three{
+    width: 380px;
+    position: relative;
+    padding-left: 55px;
+}
+.three-3{
+    position: absolute;
+    opacity: 0.1;
+    font-size: 120px;
+    margin-top: -75px;
+    margin-left: -44px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:brown;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(105, 30, 30);
+  }
+  
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: left;
+    width: 600px;
+    text-align: left;
+  }
+  
+  .col-25 {
+    width: 46%;
+    display: inline-block;
+  }
+  .col-25-1{
+    float: right;
+  }
+
+
+  
+  /* Clear floats after the columns */
+  .row2::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container3 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float: right;
+    text-align: left;
+  }
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-top-right-radius:25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    resize: vertical;
+  }
+input[type=button]{
+    background-color: brown;
+    color: white;
+    border-radius: 35px;
+}
