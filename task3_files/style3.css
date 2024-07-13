@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    background-color: aliceblue;
+}
+.fullbox {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0px auto;
+}
+.imagegallery{
+    padding-top: 60px;
+}
+.imagegallery .tab{
+    font-size: medium;
+    margin-left: 390px;
+}
+
+.all{
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.row{
+    align-items: center;
+}
+a:hover{
+    color:rgba(0, 0, 0, 0.795);
+    background-color:rgba(211, 211, 211, 0) !important;
+    text-decoration: 5px underline  green  !important;
+}
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    color: black;
+    text-decoration: 5px underline  green  !important;
+}
+.flex-row{
+    list-style-type: disc;
+}
